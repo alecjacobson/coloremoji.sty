@@ -11,4 +11,16 @@ Installation
 
 [Related blog entry](http://www.alecjacobson.com/weblog/?p=4018)
 
+## Examples
+
+The following LaTeX code:
+
+    \documentclass{article}
+    \usepackage{coloremoji}
+    \begin{document}
+    Hello, 🌎.
+    \end{document}
+
+Produces something like:
+
 ![Hello, world.](http://alecjacobson.com/weblog/media/hello-world-emoji.png)
