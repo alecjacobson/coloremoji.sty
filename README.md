@@ -42,3 +42,5 @@ This style sheet creates a PDF where each emoji is actually an embedded _image_
 rather than a character using the [Apple Color Emoji
 typeface](http://en.wikipedia.org/wiki/Apple_Color_Emoji). This means you won't
 be able to correctly copy and paste emjois from the resulting .pdf files.
+
+The encoding of the `.tex` must support emoji's, that is unicode characters. So switch your encoding to something like UTF-8.
