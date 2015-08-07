@@ -5,7 +5,7 @@
 \usepackage{xparse,l3regex}
 \usepackage[utf8x]{inputenc}
 \usepackage[export]{adjustbox}
-\usepackage{amsmath} 
+\usepackage{amsmath}
 
 
 \ExplSyntaxOn
@@ -15,7 +15,7 @@
 \cs_new_protected:Npn \coloremoji_unicode:n #1
  {
   \text{%
-  \includegraphics[height=1.25em,raise=-0.2em]{\c_coloremoji_dir_tl / \int_to_Hex:n{`#1}.pdf}%
+  \includegraphics[width=1em,valign=t,raise=-0.1em]{\c_coloremoji_dir_tl / \int_to_Hex:n{`#1}.pdf}%
   }%
  }
 
@@ -26,7 +26,7 @@
   \tl_set:Nx \l_coloremoji_input_tl { \pdfescapehex\expandafter{\l_coloremoji_input_tl} }
   \regex_replace_once:nnN { \A 0* } { } \l_coloremoji_input_tl
   \text{%
-  \includegraphics[height=1.25em,raise=-0.2em]{\c_coloremoji_dir_tl / \l_coloremoji_input_tl.pdf}%
+  \includegraphics[width=1em,valign=t,raise=-0.1em]{\c_coloremoji_dir_tl / \l_coloremoji_input_tl.pdf}%
   }%
  }
 
