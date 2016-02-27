@@ -1,7 +1,5 @@
 coloremoji.sty
 ==============
-DPD- version
-------------
 
 Style package for directly including color emojis in LaTex documents
 
