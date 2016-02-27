@@ -3,9 +3,6 @@ coloremoji.sty
 
 Style package for directly including color emojis in LaTex documents
 
-### differences
-This version differ with the original one because of the alignment with the text: this version offers a better alignment.
-
 Installation
 
     mkdir -p ~/Library/texmf/tex/latex/local
