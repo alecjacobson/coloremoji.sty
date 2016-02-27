@@ -1,7 +1,6 @@
 coloremoji.sty
 ==============
-
-Style package for directly including color emojis in LaTex documents
+Style package for directly including color emojis in latex documents
 
 Installation
 
@@ -37,15 +36,11 @@ produces something like:
 ![Emojis in math
 mode.](http://alecjacobson.com/weblog/media/alligator-power-integral-jack-o-lantern.png)
 
-## Important
-The encoding of the `.tex` must support emoji's, that is unicode characters. So switch your encoding to something like UTF-8.
-Example:
-
-    \usepackage[utf8x]{inputenc}
-
 ## Known issues
 
 This style sheet creates a PDF where each emoji is actually an embedded _image_
 rather than a character using the [Apple Color Emoji
 typeface](http://en.wikipedia.org/wiki/Apple_Color_Emoji). This means you won't
 be able to correctly copy and paste emjois from the resulting .pdf files.
+
+The encoding of the `.tex` must support emoji's, that is unicode characters. So switch your encoding to something like UTF-8.
