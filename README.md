@@ -3,6 +3,7 @@ coloremoji.sty
 Style package for directly including color emojis in latex documents
 
 Version 1.0
+All files subject to the lppl 1.3c license.
 
 Installation
 

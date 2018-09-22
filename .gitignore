@@ -1,3 +1,4 @@
 syntax: glob
 *~
 ls-R
+emoji_images/.DS_Store
