@@ -2,6 +2,8 @@ coloremoji.sty
 ==============
 Style package for directly including color emojis in latex documents
 
+Version 1.0
+
 Installation
 
     mkdir -p ~/Library/texmf/tex/latex/local
