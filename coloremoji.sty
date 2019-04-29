@@ -33,7 +33,7 @@
   }%
  }
 
-\bool_if:nTF { \xetex_if_engine_p: || \luatex_if_engine_p: }
+\bool_if:nTF { \sys_if_engine_xetex_p: || \sys_if_engine_luatex_p: }
   {
    \cs_set_eq:NN \coloremoji \coloremoji_unicode:n
   }
